@@ -8,3 +8,29 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.left-scene {
+  flex: 0 0 60%;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-search {
+  padding: 60px 60px 60px 120px;
+  border: none;
+  font-size: 2.6em;
+  box-shadow: none;
+  &:focus {
+    box-shadow: none;
+  }
+
+  .right-scene {
+    flex: 0 0 40%;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+  }
+
+}

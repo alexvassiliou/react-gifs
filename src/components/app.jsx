@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import SearchBar from './search_bar.jsx';
+import SearchBar from './search_bar.jsx';
 // import Gif from './gif.jsx';
 
 class App extends Component {
@@ -8,8 +8,7 @@ class App extends Component {
     return (
     <div>
       <div className="left-scene">
-{/*        <SearchBar />*/}
-{/*        <Gif id="l0HlNbeDtwwkBUiI"/>*/}
+        <SearchBar />
       </div>
       <div className="right-scene">
       </div>
