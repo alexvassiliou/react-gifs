@@ -1,13 +1,13 @@
-// import React from 'react';
-// import { Component } from 'react';
+import React from 'react';
+import { Component } from 'react';
 
-// class Gif extends Component {
-//   render() {
-//     const src = `https://media2.giphy.com/media/{this.props.id}/200.gif`;
-//     return (
-//       <img src={src} alt="" className="gif"/>
-//     );
-//   }
-// }
+class Gif extends Component {
+  render() {
+    const src = `https://media2.giphy.com/media/${this.props.id}/200.gif`;
+    return (
+      <img src={src} alt="" className="gif"/>
+    );
+  }
+}
 
-// export default Gif;
+export default Gif;
